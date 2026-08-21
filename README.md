@@ -227,3 +227,25 @@ This project demonstrates a complete beginner-friendly machine learning workflow
 * model saving.
 
 The project can be improved further by adding advanced feature engineering, logarithmic target transformation, CatBoost or LightGBM, model interpretation with feature importance or SHAP, and a small Streamlit or FastAPI application.
+
+## Kaggle Score
+
+The final selected model was submitted to the Kaggle competition **House Prices - Advanced Regression Techniques**.
+
+Kaggle public score:
+
+```text
+0.13840
+
+## Project Status
+
+Version 1.0 is completed.
+
+Planned improvements:
+- advanced feature engineering;
+- logarithmic target transformation;
+- CatBoost or LightGBM;
+- feature importance and SHAP;
+- moving training code from notebook to `src/`;
+- Streamlit or FastAPI demo;
+- Docker support.
