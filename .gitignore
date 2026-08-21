@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
+
+# Kaggle data
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Saved models
+models/*.joblib
+models/*.pkl
